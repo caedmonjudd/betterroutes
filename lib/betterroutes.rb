@@ -1,3 +1,3 @@
 module BetterRoutes
-  require "lib/betterroutes/railtie" if defined?(Rails)
+  require "betterroutes/railtie" if defined?(Rails)
 end
