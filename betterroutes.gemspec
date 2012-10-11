@@ -6,6 +6,6 @@ Gem::Specification.new do |s|
   s.description = "A better colorized, formatted visualization of the Rake routes listing."
   s.authors     = ["Caedmon Judd"]
   s.email       = "caedmon@statebuilt.com"
-  s.files       = Dir["lib/tasks*"]
+  s.files       = Dir["lib/tasks/*"]
   s.add_dependency('colorize')
 end
