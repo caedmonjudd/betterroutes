@@ -1,9 +1,9 @@
 # BetterRoutes #
 
-Welcome to BetterRoutes -- a better way to visualize your Rake Routes table.
+Welcome to BetterRoutes -- a better way to visualize your Rake Routes table.  It has been tested in Rails 3+.  I'm not sure if it will function on Rails 2.
 
 
-## Getting Started ##
+## Getting Started -- Rails 3+ ##
 
 All you need to do is install the Gem:
 
