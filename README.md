@@ -1,6 +1,6 @@
 # BetterRoutes #
 
-Welcome to BetterRoutes -- a better way to visualize your Rake Routes table.  It has been tested in Rails 3+.  I'm not sure if it will function on Rails 2.
+Welcome to BetterRoutes -- a better way to visualize your Rake Routes table.  It has been tested in Rails 3+.
 
 
 ## Getting Started -- Rails 3+ ##
