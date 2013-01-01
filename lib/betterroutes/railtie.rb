@@ -6,7 +6,8 @@ module BetterRoutes
     railtie_name :betterroutes
 
     rake_tasks do
-      require 'tasks/betterroutes.rake'
+      Dir[File.join(File.dirname(__FILE__),'tasks/*.rake')].each { |f| load f }
+      puts f
     end
   end
 end
