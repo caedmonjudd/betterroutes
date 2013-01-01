@@ -10,7 +10,7 @@ task :broutes => :environment do
   exclude = ['/assets', '/rails/info/properties']
 
   # Determine column widths
-  Twotp::Application.routes.routes.each do |route|
+  Rails.application.routes.routes.each do |route|
     path_length = route.path.gsub('(.:format)', '').length if route.path.gsub('(.:format)', '').length > path_length
     verb_length = route.verb.length if route.verb.length > verb_length
     name_length = route.name.to_s.length if route.name.to_s.length > name_length
@@ -31,7 +31,7 @@ task :broutes => :environment do
   puts header
 
   # Routes
-  Twotp::Application.routes.routes.each do |route|
+  Rails.application.routes.routes.each do |route|
 
     # Exclusion list
     unless exclude.include? route.path.gsub('(.:format)', '')
