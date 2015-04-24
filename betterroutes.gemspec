@@ -8,4 +8,5 @@ Gem::Specification.new do |s|
   s.email       = "caedmon@statebuilt.com"
   s.files       = Dir["lib/*"] + Dir["lib/tasks/*"]
   s.add_dependency('colorize')
+  s.add_development_dependency "rspec"
 end

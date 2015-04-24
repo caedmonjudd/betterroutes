@@ -11,6 +11,9 @@ task :broutes => :environment do
 
   # Determine column widths
   Rails.application.routes.routes.each do |route|
+
+    # puts "**TEST = #{route.path.required_names}"
+
     path_length = route.path.gsub('(.:format)', '').length if route.path.gsub('(.:format)', '').length > path_length
     verb_length = route.verb.length if route.verb.length > verb_length
     name_length = route.name.to_s.length if route.name.to_s.length > name_length
